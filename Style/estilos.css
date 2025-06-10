@@ -45,9 +45,10 @@ body {
     margin-bottom: 10px;
 }
 .photo-absolute {
-    position: absolute;
-    top: 130px;
-    right: 5vw;
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 0 auto;
     z-index: 3;
     display: flex;
     flex-direction: column;
